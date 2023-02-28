@@ -10,6 +10,7 @@
 		ED3CC8A229AE4721009645F0 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED3CC8A029AE4721009645F0 /* FoodModel.xcdatamodeld */; };
 		ED3CC8A629AE4CF4009645F0 /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CC8A529AE4CF4009645F0 /* AddFoodView.swift */; };
 		ED3CC8A829AE503F009645F0 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CC8A729AE503F009645F0 /* TimeFormatting.swift */; };
+		EDCDF23B29AE6386007183A5 /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCDF23A29AE6386007183A5 /* EditFoodView.swift */; };
 		EDDDFAE629AE3DF000DCCBC2 /* calorie_counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDFAE529AE3DF000DCCBC2 /* calorie_counterApp.swift */; };
 		EDDDFAE829AE3DF000DCCBC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDFAE729AE3DF000DCCBC2 /* ContentView.swift */; };
 		EDDDFAEA29AE3DF100DCCBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDDFAE929AE3DF100DCCBC2 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		ED3CC8A129AE4721009645F0 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		ED3CC8A529AE4CF4009645F0 /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		ED3CC8A729AE503F009645F0 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		EDCDF23A29AE6386007183A5 /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
 		EDDDFAE229AE3DF000DCCBC2 /* calorie-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calorie-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDFAE529AE3DF000DCCBC2 /* calorie_counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calorie_counterApp.swift; sourceTree = "<group>"; };
 		EDDDFAE729AE3DF000DCCBC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				EDDDFAE729AE3DF000DCCBC2 /* ContentView.swift */,
 				ED3CC8A529AE4CF4009645F0 /* AddFoodView.swift */,
+				EDCDF23A29AE6386007183A5 /* EditFoodView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				EDDDFAF829AE3F2E00DCCBC2 /* DataController.swift in Sources */,
 				EDDDFAE629AE3DF000DCCBC2 /* calorie_counterApp.swift in Sources */,
 				ED3CC8A229AE4721009645F0 /* FoodModel.xcdatamodeld in Sources */,
+				EDCDF23B29AE6386007183A5 /* EditFoodView.swift in Sources */,
 				ED3CC8A829AE503F009645F0 /* TimeFormatting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
