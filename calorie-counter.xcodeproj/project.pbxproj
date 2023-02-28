@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3CC8A229AE4721009645F0 /* FoodModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED3CC8A029AE4721009645F0 /* FoodModel.xcdatamodeld */; };
 		EDDDFAE629AE3DF000DCCBC2 /* calorie_counterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDFAE529AE3DF000DCCBC2 /* calorie_counterApp.swift */; };
 		EDDDFAE829AE3DF000DCCBC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDFAE729AE3DF000DCCBC2 /* ContentView.swift */; };
 		EDDDFAEA29AE3DF100DCCBC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDDFAE929AE3DF100DCCBC2 /* Assets.xcassets */; };
 		EDDDFAED29AE3DF100DCCBC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDDFAEC29AE3DF100DCCBC2 /* Preview Assets.xcassets */; };
+		EDDDFAF829AE3F2E00DCCBC2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDDFAF729AE3F2E00DCCBC2 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3CC8A129AE4721009645F0 /* FoodModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoodModel.xcdatamodel; sourceTree = "<group>"; };
 		EDDDFAE229AE3DF000DCCBC2 /* calorie-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "calorie-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDDDFAE529AE3DF000DCCBC2 /* calorie_counterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calorie_counterApp.swift; sourceTree = "<group>"; };
 		EDDDFAE729AE3DF000DCCBC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDDDFAE929AE3DF100DCCBC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDDFAEC29AE3DF100DCCBC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDDDFAF729AE3F2E00DCCBC2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			children = (
 				EDDDFAE529AE3DF000DCCBC2 /* calorie_counterApp.swift */,
 				EDDDFAE729AE3DF000DCCBC2 /* ContentView.swift */,
+				EDDDFAF329AE3E5300DCCBC2 /* DataModel */,
 				EDDDFAE929AE3DF100DCCBC2 /* Assets.xcassets */,
 				EDDDFAEB29AE3DF100DCCBC2 /* Preview Content */,
 			);
@@ -65,6 +70,15 @@
 				EDDDFAEC29AE3DF100DCCBC2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDDDFAF329AE3E5300DCCBC2 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CC8A029AE4721009645F0 /* FoodModel.xcdatamodeld */,
+				EDDDFAF729AE3F2E00DCCBC2 /* DataController.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDDFAE829AE3DF000DCCBC2 /* ContentView.swift in Sources */,
+				EDDDFAF829AE3F2E00DCCBC2 /* DataController.swift in Sources */,
 				EDDDFAE629AE3DF000DCCBC2 /* calorie_counterApp.swift in Sources */,
+				ED3CC8A229AE4721009645F0 /* FoodModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED3CC8A029AE4721009645F0 /* FoodModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED3CC8A129AE4721009645F0 /* FoodModel.xcdatamodel */,
+			);
+			currentVersion = ED3CC8A129AE4721009645F0 /* FoodModel.xcdatamodel */;
+			path = FoodModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EDDDFADA29AE3DF000DCCBC2 /* Project object */;
 }
